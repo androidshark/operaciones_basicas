@@ -87,9 +87,9 @@ public class MainActivity extends AppCompatActivity {
     public void dividir(View view){
         String valor1 = et1.getText().toString();
         String valor2 = et2.getText().toString();
-        int nro1 = Integer.parseInt(valor1);
-        int nro2 = Integer.parseInt(valor2);
-        int restar = nro1 / nro2;
+        float nro1 = Integer.parseInt(valor1);
+        float nro2 = Integer.parseInt(valor2);
+        float restar = nro1 / nro2;
         String resu = String.valueOf(restar);
         tv3.setText(resu);
     }
