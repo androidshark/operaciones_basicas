@@ -92,8 +92,6 @@ public class MainActivity extends AppCompatActivity {
         int restar = nro1 / nro2;
         String resu = String.valueOf(restar);
         tv3.setText(resu);
-
-
     }
 
 }
